@@ -58,7 +58,16 @@ nav a {
     color: #333;
     border-radius: 5px;
 }
-
+/*Mobile*/
+@media (max-width:768px){
+    .main-nav{
+        flex-direction: column;
+        text-align: center;
+    }
+    .main-nav li{
+        margin: 10px 0;
+    } 
+}
 /* Hero Section */
 .hero {
     background-image: url("./images/header-bg.jpg"); 
